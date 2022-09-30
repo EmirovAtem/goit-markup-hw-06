@@ -347,6 +347,7 @@ h3 {
   
   margin: 40px 40px 12px 40px;
   }
+
   .modal-form {
     width: 448px;
     height: 342px;
@@ -354,6 +355,8 @@ h3 {
 display: flex;
 flex-direction: column;
   }
+
+/* element-name */
 
   .form-labes {
     position: relative;
@@ -372,9 +375,6 @@ margin-bottom: 4px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 outline: none;
-
-
-
 }
 
 .form-input:focus-within {
@@ -382,10 +382,6 @@ outline: none;
 }
 .form-labes:focus-within > 
 
-.form-icons {
-  position: relative;
- 
-}
 
 .svgm-icon {
   position: absolute;
