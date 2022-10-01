@@ -457,7 +457,7 @@ letter-spacing: 0.03em;
   background-origin: content-box;
  }
  .modal-link {
-  text-decoration: var(--accent-color)
+  text-decoration-line: underline;
  }
 
 .modale-button  {
