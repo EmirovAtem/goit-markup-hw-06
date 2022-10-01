@@ -526,8 +526,6 @@ letter-spacing: 0.03em;
 
 .feature-list {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .title-list {
   font-weight: 700;
