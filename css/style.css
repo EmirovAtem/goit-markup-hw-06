@@ -308,7 +308,6 @@ h3 {
 
 .close-modal {
   position: absolute;
-    top: 0;
     right: 0;
 
   width: 30px;
@@ -332,9 +331,16 @@ h3 {
   width: 18px;
   height: 18px;
   fill: #000000;
+
+  transition: fill;
 }
 
-
+.svgf-icon:hover {
+  fill: var(--accent-color);
+}
+.svgf-icon:focus {
+  fill: var(--accent-color);
+}
 
 .modal-title {
   font-weight: 700;
