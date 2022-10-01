@@ -323,7 +323,15 @@ h3 {
 
   margin-right: 8px;
   margin-top: 8px;  
+
+  transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1),
+  background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1)
   }
+  .close-modal:hover .svgf-icon,
+.close-modal:focus .svgf-icon {fill: var(--accent-color);}
+.close-modal:hover, .close-modal:focus {
+  background-color: var(--whight-color);
+} 
 
   /* MODAL-INPUT-FORVS */
 .svgf-icon {
@@ -496,7 +504,6 @@ letter-spacing: 0.03em;
   border-color: var(--accent-color);
 }
 
-
  
 /* НАШІ ПЕРЕВАГИ*/
 
@@ -570,9 +577,7 @@ letter-spacing: 0.03em;
 }
 
 /* li наименование в списке */
-.work-item {
-  
-}
+
 .thub {
   position: relative;
   margin-left: 30px;
@@ -1017,11 +1022,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
     justify-content: center;
     align-items: center;
   }
-.form-field {
-  
- 
-  
-}
 
   .form-field  input {
     width: 358px;
