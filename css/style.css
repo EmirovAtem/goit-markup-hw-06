@@ -292,6 +292,8 @@ h3 {
   position: absolute;
   top: 50%;
   left: 50%;
+  position: absolute;
+  padding: 40px 39px 40px 41px;
 
   min-height: 581px;
   min-width: 528px;
@@ -308,6 +310,7 @@ h3 {
 
 .close-modal {
   position: absolute;
+  top: 0;
     right: 0;
 
   width: 30px;
@@ -357,15 +360,13 @@ h3 {
   letter-spacing: 0.03em;
   
   color: var(--title-text-color);
-  
-  margin: 40px 40px 12px 40px;
+  margin-bottom: 12px;
   }
 
   .modal-form {
     width: 448px;
     height: 342px;
-    margin: 0px 40px 20px 40px;
-display: flex;
+   display: flex;
 flex-direction: column;
   }
 
@@ -378,6 +379,11 @@ letter-spacing: 0.01em;
 margin-bottom: 14px;
 
   }
+  .form-lakes {
+    font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.01em;
+  }
 
 .form-input {    
 width: 100%;
@@ -388,12 +394,13 @@ border-radius: 4px;
 outline: none;
 
 padding-left: 45px;
+margin-top: 4px;
 
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 .svgm-icon {
   position: absolute;  
-  top: 24px;
+  top: 29px;
   left: 15px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
@@ -410,6 +417,7 @@ resize: none;
 
   padding: 12px 16px;
   margin-bottom: 20px;
+  margin-top: 4px;
   display: block;
 
 outline: none;
@@ -429,11 +437,12 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 .checkbox {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
 }
-.labelse::after {
-  content: '';
-}
+
 
 .labelse {
   display: flex;
@@ -444,7 +453,10 @@ line-height: 1.71;
 letter-spacing: 0.03em;
   
   margin-left: 7px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
 
 .iconse {
   display: inline-block;
@@ -455,6 +467,10 @@ letter-spacing: 0.03em;
   border: 2px solid #2a2a2a;
   border-radius: 2px;
 }
+.checkbox:checked:focus + .iconse {
+  background-image: url(../images/icon\ check.svg)
+}
+
 .checkbox:checked + .iconse {
   border-color: #188ce8;
   background-color: #188ce8;
@@ -484,7 +500,7 @@ letter-spacing: 0.03em;
   background-color: var(--accent-color);
 
   padding: 10px 52px;
-  margin-left: 124px;
+  margin: 0 auto;
   margin-top: 30px;
  
   
@@ -905,6 +921,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--hero-background-color);
+}
+.all-footer-section {
+  width: 231px;
 }
 .logo-footer .color {
   font-family: "Raleway", sans-serif;
