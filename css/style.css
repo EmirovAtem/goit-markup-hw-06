@@ -322,8 +322,7 @@ h3 {
   border: 1px solid rgba(0, 0, 0, 0.1);
 
   margin-right: 8px;
-  margin-top: 8px;
-
+  margin-top: 8px;  
   }
 
   /* MODAL-INPUT-FORVS */
@@ -497,7 +496,6 @@ letter-spacing: 0.03em;
   border-color: var(--accent-color);
 }
 
-  
 
  
 /* НАШІ ПЕРЕВАГИ*/
