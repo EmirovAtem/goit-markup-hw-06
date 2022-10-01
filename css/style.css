@@ -21,9 +21,9 @@
   --icon-social-card: #afb1b8;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-* {
+/* * {
   outline: 2px solid tomato;
-}
+} */
 ul,
 a {
   list-style: none;
@@ -368,14 +368,10 @@ flex-direction: column;
  font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.01em;
-    margin-bottom: 14px;
-  }
-.form-lakes {
+margin-bottom: 14px;
 
-}
-  .modal-span {
-    
   }
+
 .form-input {    
 width: 100%;
 height: 40px;
@@ -385,17 +381,22 @@ border-radius: 4px;
 outline: none;
 
 padding-left: 45px;
+
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 .svgm-icon {
   position: absolute;  
   top: 24px;
   left: 15px;
-}
-
-.form-input:focus-within {
-  border-color: rgba(117, 117, 117, 0.5);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
+
+/* .form-input:focus-within {
+  border-color: rgba(117, 117, 117, 0.5);
+
+  
+} */
 
 .modal-area {
   width: 448px;
@@ -490,9 +491,10 @@ letter-spacing: 0.03em;
   background-color: #188CE8;
   }
 
-.form-labes input:focus + svg, .form-labes input:hover + svg {fill: var(--accent-color);}
-.form-input:focus, .form-input:hover {
-  border-color: var(--accent-color);
+.form-labes input:focus + svg,
+.form-labes input:hover + svg {fill: var(--accent-color);}
+
+.form-input:focus, .form-input:hover {border-color: var(--accent-color);
 }
 .form-lakes textarea:focus, .form-lakes textarea:hover {
   border-color: var(--accent-color);
