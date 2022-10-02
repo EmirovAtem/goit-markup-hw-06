@@ -459,7 +459,6 @@ letter-spacing: 0.03em;
   }
 
 .iconse {
-  display: inline-block;
   width: 16px;
   height: 15px;
 
@@ -468,7 +467,7 @@ letter-spacing: 0.03em;
   border-radius: 2px;
 
   
-  transition: background-image 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox:focus ~ .iconse {
   background-image: url(../images/icon\ check.svg);
