@@ -467,12 +467,12 @@ letter-spacing: 0.03em;
   border: 2px solid #2a2a2a;
   border-radius: 2px;
 }
-.checkbox:focus ~ .span-check {
-  color: var(--accent-color);
+.checkbox:focus ~ .iconse {
+  background-image: url(../images/icon\ check.svg);
 }
 
 
-.checkbox:checked + .iconse {
+.checkbox:checked:focus + .iconse {
   border-color: #188ce8;
   background-color: #188ce8;
   background-image: url(../images/icon\ check.svg);
@@ -481,6 +481,7 @@ letter-spacing: 0.03em;
 
   background-origin: content-box;
  }
+
  .modal-link {
   text-decoration-line: underline;
   color: #2196F3;
