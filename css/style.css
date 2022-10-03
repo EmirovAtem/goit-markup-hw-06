@@ -21,9 +21,9 @@
   --icon-social-card: #afb1b8;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* * {
+* {
   outline: 2px solid tomato;
-} */
+}
 ul,
 a {
   list-style: none;
@@ -402,7 +402,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 448px;
   height: 120px;
   font-size: 12px;
-line-height: 14px;
+line-height: 1.17;
 letter-spacing: 0.01em;
 
 resize: none;
@@ -421,7 +421,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 ::placeholder {
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: 0.01em;
   
   color: rgba(117, 117, 117, 0.5);
@@ -521,7 +521,8 @@ margin-left: 23px;
   background-color: var(--accent-color);
 
   padding: 10px 52px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 30px;
   margin-bottom: 40px;
  
