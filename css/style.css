@@ -490,7 +490,7 @@ margin-left: 23px;
   border: 2px;
   opacity: 0;
 }
-/* .cheked-border {
+.cheked-border {
   opacity: 1;
 }
 .checkbox:checked + .iconse {
@@ -500,14 +500,14 @@ margin-left: 23px;
 } */
 
 
-/* 
+
 .checkbox:checked + .iconse {
   opacity: 0;
-} */
+} 
 
-/* .checkbox {
+.checkbox {
   visibility: hidden;
-} */
+}
 
 .modal-link {
   text-decoration-line: underline;
