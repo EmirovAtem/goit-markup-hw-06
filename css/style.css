@@ -477,13 +477,26 @@ margin-left: 36px;
 }
 
 .iconse .cheked-icon {
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   color: #2f303a;
 }
+.cheked-icon {
+  opacity: 1;
+  fill: var(--accent-color);
+}
 
+.checkbox:checked + .iconse > cheked-icon {
+ 
+  opacity: 0;}
 
+  .cheked-border {
+    opacity: 1;
 
+  }
+.checkbox:checked + .iconse > cheked-border {
+ 
+  opacity: 0;}
 
 
 
