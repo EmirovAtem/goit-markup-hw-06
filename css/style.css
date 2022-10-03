@@ -535,7 +535,14 @@ margin-left: 23px;
   background-color: #188CE8;
   }
 
-
+  .form-labes input:focus + svg,
+  .form-labes input:hover + svg {fill: var(--accent-color);}
+  
+  .form-input:focus, .form-input:hover {border-color: var(--accent-color);
+  }
+  .form-lakes textarea:focus, .form-lakes textarea:hover {
+    border-color: var(--accent-color);
+  }
 
 
 /* 
@@ -595,14 +602,7 @@ background-color: #000000;
 
 
 
-.form-labes input:focus + svg,
-.form-labes input:hover + svg {fill: var(--accent-color);}
 
-.form-input:focus, .form-input:hover {border-color: var(--accent-color);
-}
-.form-lakes textarea:focus, .form-lakes textarea:hover {
-  border-color: var(--accent-color);
-}
 
  
 /* НАШІ ПЕРЕВАГИ*/
