@@ -438,6 +438,8 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   appearance: none;
 
 }
+
+
 .iconse {
   display: flex;
   align-items: center;
@@ -446,7 +448,9 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: absolute;
  
   width: 16px;
-  height: 15px;     
+  height: 15px;   
+  
+  
 }
   
 
@@ -470,12 +474,13 @@ margin-left: 36px;
   
 }
 .cheked-icon {
+  
   opacity: 0;
 }
 .cheked-border {
   opacity: 1;
 }
-.checkbox:checked ~ .iconse > .cheked-icon {
+.checkbox:checked + .iconse > .cheked-icon {
   background-color: #2196f3;
   
   opacity: 1;
