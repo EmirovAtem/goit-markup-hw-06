@@ -21,9 +21,9 @@
   --icon-social-card: #afb1b8;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* * {
+* {
   outline: 2px solid tomato;
-} */
+}
 ul,
 a {
   list-style: none;
@@ -295,8 +295,8 @@ h3 {
   position: absolute;
   padding: 40px 39px 40px 41px;
 
-  min-height: 581px;
-  min-width: 528px;
+  height: 581px;
+  width: 528px;
   
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
@@ -424,6 +424,81 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
+.labelse {
+  display: flex;
+  align-items: center;
+
+  width: 423px;
+  height: 24px;
+  margin-left: 13px;
+}
+.checkbox {
+ position: absolute;
+  width:1px;
+  height: 1px;
+  margin: -1px; 
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hudden;
+
+}
+
+.iconse {
+  position: absolute;
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  
+ 
+  border-radius: 2px;
+  background-image: url(../images/Vector1.svg)
+}
+.checkbox:checked + .iconse {
+  border: 2px solid var(--accent-color);
+  padding: 4px 2px 3px 3px;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+  background-image: url(../images/chekin.svg);
+  background-color: var(--accent-color);
+}
+
+.iconse {
+transition: background-color 2250 var(--logo-color);
+}
+.checkbox:checked + .iconse{
+  background-color: #2196f3;
+}
+
+.span-check {
+  font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+margin-left: 36px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .check_box {
   width: 425px;
   position: relative;
@@ -467,8 +542,8 @@ letter-spacing: 0.03em;
   
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox:focus ~ .iconse {
-  background-image: url(../images/icon\ check.svg);
+.checkbox:focus + .iconse {
+  
 }
 
 
@@ -485,7 +560,7 @@ letter-spacing: 0.03em;
  .modal-link {
   text-decoration-line: underline;
   color: #2196F3;
- }
+ } */
 
 .modale-button  {
   width: 200px;
@@ -504,6 +579,7 @@ letter-spacing: 0.03em;
   padding: 10px 52px;
   margin: 0 auto;
   margin-top: 30px;
+  margin-bottom: 40px;
  
   
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
