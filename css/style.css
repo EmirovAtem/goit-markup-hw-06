@@ -455,10 +455,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 
-.checkbox:checked + .iconse{
-    background-color: #2196f3;
-    opacity: 1;
-    border: none;}
+
 
    
 
@@ -482,21 +479,31 @@ margin-left: 36px;
   color: #2f303a;
 }
 .cheked-icon {
-  opacity: 1;
-  fill: var(--accent-color);
+  opacity: 1;  
 }
+.cheked-border {
+  opacity: 1;}
+
 
 .checkbox:checked + .iconse > cheked-icon {
- 
+  
   opacity: 0;}
 
-  .cheked-border {
+  .checkbox:checked + .iconse{
+    background-color: #2196f3;
     opacity: 1;
-
   }
+  .checkbox:checked .cheked-icon{
+    
+    opacity: 1;}
+
+    .checkbox:checked .cheked-border{
+    
+      opacity: 0;}
+  
 .checkbox:checked + .iconse > cheked-border {
  
-  opacity: 0;}
+  opacity: 1;}
 
 
 
