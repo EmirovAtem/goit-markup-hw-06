@@ -21,9 +21,9 @@
   --icon-social-card: #afb1b8;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-* {
+/* * {
   outline: 2px solid tomato;
-}
+} */
 ul,
 a {
   list-style: none;
@@ -482,7 +482,7 @@ margin-left: 36px;
   opacity: 1;  
 }
 .cheked-border {
-  opacity: 1;}
+  opacity: 0;}
 
 
 .checkbox:checked + .iconse > cheked-icon {
@@ -503,7 +503,7 @@ margin-left: 36px;
   
 .checkbox:checked + .iconse > cheked-border {
  
-  opacity: 1;}
+  opacity: 0;}
 
 
 
