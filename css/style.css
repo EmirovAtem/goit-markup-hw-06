@@ -326,9 +326,7 @@ h3 {
   margin-right: 8px;
   margin-top: 8px;  
 
-  background-color: var(--whight-color);
-
-  }
+   }
   .close-modal:hover .svgf-icon,
 .close-modal:focus .svgf-icon {fill: var(--accent-color);}
 .close-modal:hover, .close-modal:focus {
