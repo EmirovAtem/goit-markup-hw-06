@@ -499,16 +499,17 @@ margin-left: 23px;
   opacity: 1;
 } 
 .checkbox:focus + .iconse {
-  background-color: #2196f3;}
+  background-color: #2196f3;
+  } 
 
 
 .checkbox:checked + .iconse {
   opacity: 0;
 } 
 
-.checkbox {
+/* .checkbox {
   visibility: hidden;
-}
+} */
 
 .modal-link {
   text-decoration-line: underline;
