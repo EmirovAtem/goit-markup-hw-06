@@ -471,7 +471,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .check-border {
     opacity: 1;
-    background-color: var(--accent-color);
+    
 }
 .check-icon {
     opacity: 0;
@@ -491,6 +491,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .checkbox:focus + .iconse {
     fill: var(--accent-color);
+    
 }
 
 
